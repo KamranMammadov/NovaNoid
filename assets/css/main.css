@@ -3,3 +3,263 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: transparent;
+    position: fixed;
+    display: flex;  
+    z-index: 999;
+}
+/* Header right */
+.rightpart{
+    background-image:url(../images/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:100px;
+    height: 29px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+/* Header left */
+.ulstyle{
+    display: flex;
+    list-style: none;
+    margin-left: 48%;
+    margin-top: 20px;
+}
+.ulstyle>li{
+    padding-left: 20px;
+
+}
+.ulstyle>li>a{
+    color: rgb(89, 81, 81);
+}
+.ulstyle>li>a:hover{
+    color:  black;
+}
+/* Header finished */
+.kamsect{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    z-index: -1;
+
+}
+.picsdiv{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: -1;
+}
+.pic1div{
+    width: 100%;
+    height:100%;
+    background-image: url(../images/forest1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    position: absolute;
+    z-index: 0;
+    animation-name: myanimation1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+.pic2div{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/forest2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    z-index: 0;
+    top: 0%;
+    animation-name: myanimation2;
+    animation-delay: 6s;
+    animation-iteration-count: infinite;
+}
+.pic3div{
+    width: 100%;
+    height:100%;
+    background-image: url(../images/forest3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: absolute;
+    z-index: 0;
+    top: 0%;
+    animation-name: myanimation3;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+#picbottomtext{
+    position: absolute;
+    z-index: 0;
+    visibility: visible;
+    animation-name: textanimation1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+#pic2bottomtext{
+    position: absolute;
+    z-index: 0;
+    animation-name: textanimation2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+#pic3bottomtext{
+    position: absolute;
+    z-index: 0;
+    animation-name: textanimation3;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+#picbottomtext, #pic2bottomtext, #pic3bottomtext{
+    padding-top: 200px;
+    text-align: center;
+    color: white;
+    opacity: 0.9;
+    padding-left: 45%;
+}
+/* animations */
+@keyframes myanimation1 {
+    0% {opacity: 1;
+        z-index: 1;}
+    25% {opacity: 1;
+        z-index: 1;}
+    50% {opacity: 0;
+          z-index: 0;}
+    100% {opacity: 0;
+            z-index: 0;}
+}
+@keyframes myanimation2 {
+    0% {opacity: 0;
+        z-index: 0;}
+    50% {opacity: 1;
+        z-index: 2;}
+    100% {opacity: 0;
+        z-index: 0;}    
+}
+@keyframes myanimation3 {
+    0% {opacity: 0;
+        z-index: 0;}
+    50% {opacity: 0;
+        z-index: 0;}
+    100% {opacity: 1;
+        z-index: 3;}    
+}
+@keyframes textanimation1 {
+    0% {opacity: 1;
+        z-index: 1;}
+    25% {opacity: 1;
+        z-index: 1;}
+    50% {opacity: 0;
+          z-index: 0;}
+    100% {opacity: 0;
+            z-index: 0;}
+}
+@keyframes textanimation2 {
+    0% {opacity: 0;
+        z-index: 0;}
+    50% {opacity: 2;
+        z-index: 1;}
+    100% {opacity: 0;
+        z-index: 0;}    
+}
+@keyframes texanimation3 {
+    0% {opacity: 0;
+        z-index: 0;}
+    50% {opacity: 0;
+        z-index: 0;}
+    100% {opacity: 3;
+        z-index: 1;}    
+}
+.textsdiv{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+}
+.abovesmallcards{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+.leftfirst{
+    width: 28%;
+    height: 50%;
+    background-color: white;
+}
+.leftfirst>i{
+    display: flex;
+}
+
+.leftfirst>h5{
+    display: flex;
+}
+.fa-leaf{
+    color: #48cfae;
+}
+.leftfirst>p{
+    font-weight: 200;
+    padding-left: 20px;
+}
+.middlefirst{
+    width: 28%;
+    height: 50%;
+    background-color: white;
+    /* margin-left: 5.3%; */
+}
+.middlefirst>i{
+    display: flex;
+}
+
+.middlefirst>h5{
+    display: flex;
+}
+.fa-desktop{
+    color: #48cfae;
+}
+.middlefirst>p{
+    font-weight: 200;
+    padding-left: 20px;
+}
+.rightfirst{
+    width: 28%;
+    height: 50%;
+    background-color: white;
+    /* margin-left: 5.3%; */
+}
+.rightfirst>i{
+    display: flex;
+}
+
+.rightfirst>h5{
+    display: flex;
+}
+.fa-eye, .fa-a, .fa-folder-tree, .fa-fire-flame-curved{
+    color: #48cfae;
+}
+.rightfirst>p{
+    font-weight: 200;
+    padding-left: 20px;
+}
+.bottomsmallcards{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
