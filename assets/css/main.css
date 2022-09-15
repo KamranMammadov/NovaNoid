@@ -262,4 +262,275 @@ header{
     justify-content: space-between;
 }
 
+.worksection{
+    width: 100%;
+    height: 900px;
+    background-color: #f3f4f8;
 
+}
+.workcontent{
+    width: 70%;
+    height: 900px;
+    margin-left: 15%;
+}
+.headingdiv{
+    width: 60%;
+    height: 250px;
+    margin-left: 20%;
+    text-align: center;
+
+}
+.workheading{
+    font: 700 28px 'Yanone Kaffeesatz', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #434a54;
+    padding-top: 3%;
+}
+.workparagraph{
+    color: #656d78;
+    margin-top: 2%;
+}
+.ulwork{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.liwork{
+    padding: 0 3%;
+    color: #333;
+    display: inline-block;
+
+}
+.awork{
+    text-decoration: none;
+    color: #333;
+    font-weight: 700;
+
+}
+#allid{
+    color: white;
+    font-weight: bold;
+    background-color: #48cfae;
+    border: 1px solid;
+    border-radius: 8px;
+    border-color: #48cfae;
+    padding: 1px 12px;
+}
+
+.liwork :hover{
+    color: #48cfae;
+}
+
+
+.picturesdiv{
+    width: 100%;
+    height: 650px;
+
+}
+.firstline{
+    width: 100%;
+    height: 200px;
+    display: flex;
+
+}
+
+.firstimage, .secondimage{
+    width: 400px;
+    height: 100%;
+    margin-right: 20px;
+}
+.thirdimage{
+    width: 750px;
+    height: 100%;
+    margin-right: 0px;
+}
+
+.firstimage>a{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/work-1.jpg);
+    display: inline-block;
+    background-color:#48cfae; 
+    position: relative;
+}
+.secondimage>a{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-image: url(../images/work-2.jpg);
+
+}
+.thirdimage>a{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-image: url(../images/work-3.jpg);
+    background-repeat: no-repeat;
+}
+
+.secondline{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    margin-top: 15px;
+}
+
+.fourthimage{
+    width: 350px;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.fifthimage{
+    width: 700px;
+    height: 100%;
+    margin-right: 23px;
+}
+
+.sixthimage{
+    width: 300px;
+    height: 100%;
+
+}
+.fourthimage>a{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-image: url(../images/work-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fifthimage>a{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-image: url(../images/work-5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sixthimage>a{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-image: url(../images/work-6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.thirdline{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    margin-top: 15px;
+}
+.seventhimage{
+    width: 700px;
+    height: 100%;
+    margin-right: 20px;
+}
+.eightsimage{
+    width: 300px;
+    height: 100%;
+    margin-right: 23px;
+}
+.ninthimage{
+    width: 300px;
+    height: 100%;
+}
+.seventhimage>a{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/work-7.jpg);
+}
+.eightsimage>a{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/work-8.jpg);
+}
+.ninthimage>a{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/work-9.jpg);
+}
+.servicesection{
+    width: 100%;
+    height: 700px;
+}
+.servicecontent{
+    width: 70%;
+    height: 700px;
+    margin-left: 15%;
+}
+.serviceheadingdiv{
+    width: 50%;
+    height: 220px;
+    margin-left: 25%;
+    text-align: center;
+
+}
+.serviceheading{
+    padding-top: 80px;
+    font: 700 28px 'Yanone Kaffeesatz', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #434a54;
+}
+.serviceparagraph{
+    margin-top: 15px;
+    color: #656d78;
+}
+.serviceinfo{
+    width: 100%;
+    height: 480px;
+}
+.firstrow{
+    width: 90%;
+    height: 235px;
+    display: flex;
+    margin-left: 5%;
+    padding-top: 3%;
+}
+.firstinfo{
+    width: 50;
+    height: 100%;
+    text-align: center;
+    margin-right: 3%;
+}
+.secondinfo{
+    width: 50;
+    height: 100%;
+    text-align: center;
+    margin-right: 3%;
+}
+.thirdinfo{
+    width: 50;
+    height: 100%;
+    text-align: center;
+    margin-right: 3%;
+}
+.secondrow{
+    width: 90%;
+    height: 235px;
+    display: flex;
+    margin-left: 5%;
+    padding-top: 3%;
+}
+.infoheading{
+    color: #434a54;
+    font-weight: 800px;
+    font-size: 25px;
+}
+.infoparagraph{
+    color: #656d78;
+}
