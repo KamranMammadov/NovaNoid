@@ -534,3 +534,257 @@ header{
 .infoparagraph{
     color: #656d78;
 }
+
+
+/* anar css start*/
+
+
+.anardiv{
+    display: flex;
+    justify-content: center;
+}
+
+.anar{
+    background-image: url(http://demo.rommar.in.ua/novanoid/novanoid-1/img/parallax.jpg);
+    
+    width: 80%;
+}
+
+.weheader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.fa-heart{
+    margin-left: 10px;
+    color: #ed5564;
+}
+.firstspan{
+    width: 55%;
+}
+
+.button{
+    border: 2px solid;
+    text-decoration: none;
+    color: white;
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    border-radius: 3px;
+    background: transparent;
+    margin-top: 50px;
+    border-color: none;
+    
+    
+}
+
+.button:hover{
+    background: rgba(255, 255, 255, .2);
+    border-color: white;
+    color: white;
+
+}
+
+.fa-eye{
+    animation-name: goz;
+}
+
+@keyframes goz{
+
+}
+
+
+.ourteam{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+#ourteamline{
+    display: block;
+    width: 40px;
+    height: 2px;
+    background: #ccd0d9;
+}
+
+.socialmedia{
+    width: 33.3%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 200px;
+}
+
+.socialmedia>ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.socialmedia>ul>li{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    left: 80px;
+}
+
+.socialmedia>ul>li>a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.col{
+    width: 33.3%;
+    position: relative; 
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.col div{
+    float: left !important;
+}
+
+.member>h3,p{
+text-align: left;
+}
+
+.memberimage{
+    width: 100%;
+    border-radius: 3px;
+}
+
+h3{
+    font: 700 18px 'Yanone Kaffeesatz', sans-serif;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    text-transform: uppercase;
+}
+
+.statics{
+    list-style: none;
+    display: flex;
+}
+
+.fa-users, .fa-briefcase, .fa-globe, .fa-building{
+    font-size: 32px;
+    color: #48cfae;
+    line-height: 5px;
+    position: relative;
+    top: 12px;
+    margin-right: 15px;
+}
+
+
+.statics li h3{
+    color: #aab2bd;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    position: relative;
+    bottom: 20px;
+}
+
+.statics li p{
+    font-size: 25px;
+    float: left;
+
+}
+
+/* how many */
+
+.howmany{
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f4f8;
+    align-items: center;
+}
+
+#howmanyline{
+    align-items: center;
+    display: block;
+    width: 40px;
+    height: 2px;
+    background: #ccd0d9;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.colcontainer{
+    /* width: 100%; */
+    background-color: #fff;
+    border: 1px solid #e6e9ee;
+    /* padding: 3px; */
+}
+
+.col-sm-4{
+    /* background-color: #48cfae; */
+    width: 33.1%;
+    /* border: 1px solid; */
+    margin: 1px;
+    text-align: center;
+    list-style: none;
+}
+
+.col-sm-4>div>ul{
+    list-style: none;
+    position: relative;
+    right: 15px;
+}
+
+.colcontainer>h4{
+    background-color: #f9f9fb;
+    padding: 24px;
+    font: 700 22px 'Yanone Kaffeesatz', sans-serif;
+    color: #656d78;
+}
+
+.colcontainer>h5{
+    color: #48cfae;
+    font-size: 30px;
+}
+
+.howmanybutton{
+    display: inline-block;
+    width: 85px;
+    height: 30px;
+    margin-top: 24px;
+    margin-bottom: 30px;
+    background-color: #48cfae;
+}
+
+.howmanybutton{
+    text-decoration: none;
+    color: #fff;
+
+}
+/* --------------------------- */
+.memberimage :hover{
+    background-color: aqua;
+
+}
+.member2{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.member2 :hover .member>.memberimage{
+    visibility: hidden;
+}
+
+
+
+/* anar css end */
